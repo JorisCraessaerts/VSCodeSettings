@@ -1,0 +1,111 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+f1",
+        "command": "workbench.action.reloadWindow"
+    },
+    {
+        "key": "ctrl+k ctrl+s",
+        "command": "-workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "-bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "numberedBookmarks.toggleBookmark0"
+    },
+    {
+        "key": "ctrl+oem_7",
+        "command": "numberedBookmarks.list"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "numberedBookmarks.toggleBookmark1",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+1",
+        "command": "-numberedBookmarks.toggleBookmark1",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "numberedBookmarks.toggleBookmark2",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+2",
+        "command": "-numberedBookmarks.toggleBookmark2",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "numberedBookmarks.toggleBookmark3",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+3",
+        "command": "-numberedBookmarks.toggleBookmark3",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "workbench.view.extension.bookmarks"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "bookmarks.list"
+    },
+    {
+        "key": "ctrl+k ctrl+l",
+        "command": "bookmarks.toggleLabeled"
+    },
+    {
+        "key": "ctrl+oem_7",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "-workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+k ctrl+d",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+r ctrl+r",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "f2",
+        "command": "-editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.files.saveAs"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "-workbench.action.files.saveAs"
+    }
+]
